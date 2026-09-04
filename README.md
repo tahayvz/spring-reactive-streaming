@@ -1,5 +1,11 @@
 # Spring Reactive Streaming
 
+[![CI](https://github.com/tahayvz/spring-reactive-streaming/actions/workflows/ci.yml/badge.svg)](https://github.com/tahayvz/spring-reactive-streaming/actions/workflows/ci.yml)
+[![Java](https://img.shields.io/badge/Java-21-007396?logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/)
+[![Spring WebFlux](https://img.shields.io/badge/Spring%20WebFlux-3.5-6DB33F?logo=springboot&logoColor=white)](https://spring.io/reactive)
+[![R2DBC](https://img.shields.io/badge/R2DBC-PostgreSQL-336791?logo=postgresql&logoColor=white)](https://r2dbc.io/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Backpressure, stream composition and R2DBC in Spring WebFlux — built around one question:
 
 > **Virtual threads made blocking cheap. So what is reactive still for?**
