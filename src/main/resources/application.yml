@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: spring-reactive-streaming
+
+  r2dbc:
+    url: ${SPRING_R2DBC_URL:r2dbc:postgresql://localhost:5432/prices}
+    username: ${SPRING_R2DBC_USERNAME:prices}
+    password: ${SPRING_R2DBC_PASSWORD:prices}
+
+app:
+  stream:
+    # Akış penceresi: bu süre içinde gelen güncellemelerden yalnızca sonuncusu
+    # istemciye gider. Küçültmek daha canlı, büyütmek daha az yük demektir.
+    sample-window-ms: 500
+
+server:
+  port: 8083
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
