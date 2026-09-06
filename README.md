@@ -140,7 +140,7 @@ curl -N http://localhost:8083/api/v1/prices/BTCUSD/stream
 
 ## Tests
 
-21 tests. Only the R2DBC and web suites need Docker.
+27 tests. Only the R2DBC and web suites need Docker.
 
 | Suite | Count | Covers |
 | --- | ---: | --- |
